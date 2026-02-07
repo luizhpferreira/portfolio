@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — Terminal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <div class="terminal-window">
+      <div class="terminal-header">
+        <div class="terminal-buttons">
+          <span class="btn close"></span>
+          <span class="btn min"></span>
+          <span class="btn max"></span>
+        </div>
+        <span class="terminal-title">portifolio@lufe — bash</span>
+      </div>
+      <div class="terminal-body">
+        <div class="welcome">
+          <p class="intro">Welcome to my portfolio. Type <code>help</code> to see commands or <code>ls</code> to explore.</p>
+        </div>
+        <div class="output-container"></div>
+        <div class="input-line">
+          <span class="prompt"><span class="user">visitor</span>@<span class="host">portifolio</span>:<span class="path">~</span>$</span>
+          <input type="text" class="command-input" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="Command">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
