@@ -15,9 +15,9 @@
       { name: 'contact', type: 'file' },
     ],
     '~/projects': [
-      { name: 'api-rest-node', type: 'dir', desc: 'REST API with Node.js' },
-      { name: 'microservicos-python', type: 'dir', desc: 'Microservices with FastAPI' },
-      { name: 'auth-jwt', type: 'file', desc: 'JWT authentication system' },
+      { name: 'wallet-btc', type: 'dir' },
+      { name: 'backend-naocustodial', type: 'dir' },
+      { name: 'monitor-pricing-btc', type: 'dir' },
     ],
     '~/social': [
       { name: 'email', type: 'link', url: 'luizferreiralps@gmail.com' },
@@ -26,15 +26,15 @@
       { name: 'twitter', type: 'link', url: 'https://x.com/luizferreiralp' },
     ],
     '~/projects/wallet-btc': [
-      { name: 'README', type: 'file', desc: 'Project description' },
+      { name: 'README', type: 'file', desc: 'Carteira Bitcoin não-custodial para dispositivos móveis, desenvolvida com React Native e Expo.' },
       { name: 'repo', type: 'link', url: 'https://github.com/luizhpferreira/wallet-btc' },
     ],
     '~/projects/backend-naocustodial': [
-      { name: 'README', type: 'file', desc: 'Project description' },
+      { name: 'README', type: 'file', desc: 'API em Go para funcionalidades não-custodiais, fornecendo endpoints para consulta de taxas, rede Bitcoin, UTXOs e utilidades.' },
       { name: 'repo', type: 'link', url: 'https://github.com/luizhpferreira/backend-naocustodial' },
     ],
     '~/projects/monitor-pricing-btc': [
-      { name: 'README', type: 'file', desc: 'Project description' },
+      { name: 'README', type: 'file', desc: 'Aplicativo para monitorar o preço do Bitcoin em tempo real.' },
       { name: 'repo', type: 'link', url: 'https://github.com/luizhpferreira/monitor-pricing-btc' },
     ],
   };
