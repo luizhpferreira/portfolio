@@ -39,22 +39,57 @@
 
   const catContent = {
     resume: {
-      title: 'Resume',
+      title: 'Resume — Luiz Poldo',
       body: `
-Computer Science / Software Engineering background.
-Experience with Node.js, Python, REST APIs, databases and DevOps.
+RESUMO
+GO Developer. Formado em Análise e Desenvolvimento de Sistemas.
 
-For PDF or full experience, see the contact section.
+
+PRINCIPAIS COMPETÊNCIAS
+ · Go · Java · Datadog
+
+CERTIFICAÇÕES
+· AWS Certified Solutions Architect - Associate
+· The Complete Splunk Course
+· Monitoramento com Zabbix
+· Cisco AppDynamics Application Performance Management (APM)
+· Gremlin Certified Chaos Engineering Professional (GCCEP)
+· Monitoring and Alerting with Prometheus
+
+
+EXPERIÊNCIA
+
+Mercado Libre — Software Developer
+dez 2024 - Presente (1 ano 3 meses) · Curitiba, PR
+Desenvolvimento e manutenção de aplicações robustas e escaláveis em Java e Go, com foco em performance, confiabilidade e arquitetura limpa. Observabilidade, pipelines CI/CD de ponta a ponta e decisões técnicas que guiam o design de sistemas e a evolução da plataforma.
+
+Stefanini Brasil — DevOps Developer
+ago 2024 - dez 2024 (5 meses) · São Paulo, SP
+DevOps: GitActions, ArgoCD, Terraform, Datadog, AWS Lambda, FinOps. Python e serviços AWS para otimizar infraestrutura e custos. CI/CD, automação e monitoramento em colaboração com times de desenvolvimento.
+
+Orsegups Participações S/A — DevOps Engineer
+jun 2024 - ago 2024 (3 meses) · São José, SC
+Ponte entre desenvolvimento e operações: automação, infraestrutura em nuvem, pipelines CI/CD. Stack: Terraform, AWS, Docker, Kubernetes, Jenkins, Prometheus, Grafana, ELK, Datadog, Python, Bash.
+
+NTT DATA — Site Reliability Engineer (SRE)
+jul 2021 - jun 2024 (3 anos) · Florianópolis, SC
+Ferramentas de automação para provisionamento e escalabilidade. SRE desde o início do ciclo de desenvolvimento. Monitoramento proativo e resolução rápida de incidentes. Instrutor de robótica no projeto RecPam.
+
+FORMAÇÃO
+· Estácio — Análise e Desenvolvimento de Sistemas (2021–2023)
+· UFSC — Letras, Educação (2017)
+
+
       `.trim(),
     },
     contact: {
       title: 'Contact',
       body: `
-Email: seu.email@exemplo.com
-LinkedIn: linkedin.com/in/seu-perfil
-GitHub: github.com/seu-usuario
+Email: luizferreiralps@gmail.com
+LinkedIn: www.linkedin.com/in/luizhpferreira
+GitHub: github.com/luizhpferreira
 
-Available for backend projects and opportunities.
+Disponível para projetos e oportunidades em backend, Go, Java e DevOps/SRE.
       `.trim(),
     },
     social: {
