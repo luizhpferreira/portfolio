@@ -25,13 +25,17 @@
       { name: 'github', type: 'link', url: 'https://github.com/luizhpferreira' },
       { name: 'twitter', type: 'link', url: 'https://x.com/luizferreiralp' },
     ],
-    '~/projects/api-rest-node': [
+    '~/projects/wallet-btc': [
       { name: 'README', type: 'file', desc: 'Project description' },
-      { name: 'repo', type: 'link', url: 'https://github.com/seu-usuario/api-rest-node' },
+      { name: 'repo', type: 'link', url: 'https://github.com/luizhpferreira/wallet-btc' },
     ],
-    '~/projects/microservicos-python': [
+    '~/projects/backend-naocustodial': [
       { name: 'README', type: 'file', desc: 'Project description' },
-      { name: 'repo', type: 'link', url: 'https://github.com/seu-usuario/microservicos-python' },
+      { name: 'repo', type: 'link', url: 'https://github.com/luizhpferreira/backend-naocustodial' },
+    ],
+    '~/projects/monitor-pricing-btc': [
+      { name: 'README', type: 'file', desc: 'Project description' },
+      { name: 'repo', type: 'link', url: 'https://github.com/luizhpferreira/monitor-pricing-btc' },
     ],
   };
 
